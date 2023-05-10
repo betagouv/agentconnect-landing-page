@@ -1,24 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>A Basic HTML5 Template</title>
-    <meta name="description" content="Epxress + DSFR template">
-    <meta name="author" content="Beta.Gouv">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="icon" href="/favicon.ico">
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <title>AgentConnect</title>
+    <meta name="description" content="Epxress + DSFR template" />
+    <meta name="author" content="Beta.Gouv" />
 
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
-    <link rel="stylesheet" href="/reby/dsfr.min.css">
+    <!-- <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" /> -->
 
-  </head>
+    <link rel="apple-touch-icon" href="node_modules/@gouvfr/dsfr/dist/favicons/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="icon" href="node_modules/@gouvfr/dsfr/dist/favicons/favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="node_modules/@gouvfr/dsfr/dist/favicons/favicon.ico" type="image/x-icon">
+    <!-- 32×32 -->
+    <link rel="manifest" href="/dist/favicons/manifest.webmanifest" crossorigin="use-credentials">
 
-  <body>
+    <link rel="stylesheet" href="css/styles.css?v=1.0" />
+    <link rel="stylesheet" href="/static/dsfr.min.css" />
+</head>
+
+<body>
+    <header role="banner" class="fr-header">
+        <div class="fr-header__body">
+            <div class="fr-container">
+                <div class="fr-header__body-row">
+                    <div class="fr-header__brand fr-enlarge-link">
+                        <div class="fr-header__brand-top">
+                            <div class="fr-header__logo">
+                                <p class="fr-logo">République <br />française</p>
+                            </div>
+                        </div>
+                        <div class="fr-header__service">
+                            <a href="/"
+                                title="Accueil - [À MODIFIER - Nom du site / service] - Nom de l’entité (ministère, secrétariat d‘état, gouvernement)">
+                                <p class="fr-header__service-title">AgentConnect</p>
+                            </a>
+                            <p class="fr-header__service-tagline">
+                                AgentConnect est un dispositif d’identification des agents de l'État
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="fr-notice fr-notice--info fr-mx-32v fr-my-10v">
+        <div class="fr-container">
+            <div class="fr-notice__body">
+                <p class="fr-notice__title">
+                    Ce site est actuellement en construction. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="fr-footer" role="contentinfo" id="footer">
+        <div class="fr-container">
+            <div class="fr-footer__body">
+                <div class="fr-footer__brand fr-enlarge-link"> <a href="/"
+                        title="Retour à l’accueil du site - Nom de l’entité (ministère, secrétariat d‘état, gouvernement)">
+                        <p class="fr-logo"> AGENT <br>CONNECT </p>
+                    </a> </div>
+                <div class="fr-footer__content">
+                    <ul class="fr-footer__content-list">
+                        <li class="fr-footer__content-item"> <a class="fr-footer__content-link" target="_blank"
+                                href="https://legifrance.gouv.fr">legifrance.gouv.fr</a> </li>
+                        <li class="fr-footer__content-item"> <a class="fr-footer__content-link" target="_blank"
+                                href="https://gouvernement.fr">gouvernement.fr</a> </li>
+                        <li class="fr-footer__content-item"> <a class="fr-footer__content-link" target="_blank"
+                                href="https://service-public.fr">service-public.fr</a> </li>
+                        <li class="fr-footer__content-item"> <a class="fr-footer__content-link" target="_blank"
+                                href="https://data.gouv.fr">data.gouv.fr</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fr-footer__bottom">
+                <ul class="fr-footer__bottom-list">
+                    <li class="fr-footer__bottom-item"> <a class="fr-footer__bottom-link" href="#">Plan du site</a>
+                    </li>
+                    <li class="fr-footer__bottom-item"> <a class="fr-footer__bottom-link" href="#">Accessibilité : partiellement</a> </li>
+                    <li class="fr-footer__bottom-item"> <a class="fr-footer__bottom-link" href="#">Mentions légales</a>
+                    </li>
+                    <li class="fr-footer__bottom-item"> <a class="fr-footer__bottom-link" href="#">Données
+                            personnelles</a>
+                    </li>
+                    <li class="fr-footer__bottom-item"> <a class="fr-footer__bottom-link" href="#">Gestion des
+                            cookies</a>
+                    </li>
+                </ul>
+                <div class="fr-footer__bottom-copy">
+                    <p>Sauf mention contraire, tous les contenus de ce site sont sous <a
+                            href="https://github.com/etalab/licence-ouverte/blob/master/LO.md" target="_blank">licence
+                            etalab-2.0</a> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="js/scripts.js"></script>
-  </body>
+</body>
+
 </html>

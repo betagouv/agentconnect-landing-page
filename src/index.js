@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
 app.use(express.static('assets'));
 
-app.use("/reby", express.static('node_modules/@gouvfr/dsfr/dist'));
+app.use("/static", express.static('node_modules/@gouvfr/dsfr/dist'));
 
 app.listen(port, () => {
   console.log(`Vous êtes sur le port ${port}`)
