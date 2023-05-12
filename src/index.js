@@ -1,4 +1,5 @@
 const express = require('express')
+var favicon = require('serve-favicon')
 const path = require('path')
 const dotenv = require('dotenv')
 const app = express()
@@ -14,6 +15,8 @@ app.get('/', (req, res) => {
 })
 
 app.use("/static", express.static('node_modules/@gouvfr/dsfr/dist'));
+
+app.use(favicon(path.join(__dirname, 'public', 'favicon.svg')))
 
 app.listen(process.env.PORT, () => {
   console.log(`Vous êtes sur le port ${process.env.PORT}`)
