@@ -5,10 +5,9 @@ const app = express()
 
 dotenv.config()
 
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'))
-})
-
+app.use(favicon(path.join(__dirname, 'public', 'favicon.svg')))
+app.set("views", path.join(__dirname, "../views"));
+app.set("view engine", "ejs");
 app.use(express.static('assets'));
 
 app.use("/static", express.static('node_modules/@gouvfr/dsfr/dist'));
