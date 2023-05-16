@@ -5,11 +5,13 @@ const app = express()
 
 dotenv.config()
 
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'))
-})
-
+app.set("views", path.join(__dirname, "../views"));
+app.set("view engine", "ejs");
 app.use(express.static('assets'));
+
+app.get('/', (req, res) => {
+  res.render('index')
+})
 
 app.use("/static", express.static('node_modules/@gouvfr/dsfr/dist'));
 
