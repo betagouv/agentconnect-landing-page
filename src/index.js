@@ -14,9 +14,10 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 
+app.use(express.static('public'));
 app.use("/static", express.static('node_modules/@gouvfr/dsfr/dist'));
 
-app.use(favicon(path.join(__dirname, 'public', 'favicon.svg')))
+app.use(favicon(path.join(__dirname, '../public', 'favicon.svg')))
 
 app.listen(process.env.PORT, () => {
   console.log(`Vous êtes sur le port ${process.env.PORT}`)
