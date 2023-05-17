@@ -13,6 +13,18 @@ app.use(express.static('assets'));
 app.get('/', (req, res) => {
   res.render('index')
 })
+app.get('/dnum', (req, res)=> {
+  res.render('dnum')
+})
+app.get('/equipes', (req, res)=> {
+  res.render('equipes')
+})
+app.get('/agents', (req, res)=> {
+  res.render('agents')
+})
+app.get('/contact', (req, res)=> {
+  res.render('contact')
+})
 
 app.use(express.static('public'));
 app.use("/static", express.static('node_modules/@gouvfr/dsfr/dist'));
