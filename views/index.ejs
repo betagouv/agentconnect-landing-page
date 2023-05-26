@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <%- include('partials/head.ejs'); %>
+<%- include('partials/head.ejs'); %>
+
     <body>
         <%- include('partials/menu.ejs'); %>
-        <div class="fr-container fr-my-3w">
-            <div class="fr-grid-row fr-grid-row--gutters fr-my-5w">
-              <div class="fr-col-md-6">
-                  <h1>AgentConnect simplifie le quotidien des agents.</h1>
-                  <p class="fr-text--lead">Vous êtes seulement à un clic de vos outils collaboratifs et de vos outils métiers !</p>
-              </div>
-              <div class="fr-col-md-6">
-                  <div class="fr-content-media__img fr-mt-n4w">
-                      <img class="fr-responsive-img"  src="/pictograms/illu_hero.png" alt="">
-                  </div>
-              </div>
+            <div class="fr-container fr-my-3w">
+                <div class="fr-grid-row fr-grid-row--gutters fr-my-5w">
+                    <div class="fr-col-md-6">
+                        <h1>AgentConnect simplifie le quotidien des agents.</h1>
+                        <p class="fr-text--lead">Vous êtes seulement à un clic de vos outils collaboratifs et de vos
+                            outils métiers !</p>
+                    </div>
+                    <div class="fr-col-md-6">
+                        <div class="fr-content-media__img fr-mt-n4w hidde-content">
+                            <img class="fr-responsive-img" src="/pictograms/illu_hero.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <%- include('partials/cards-presentation.ejs'); %>
+                    <div class="fr-grid-row fr-grid-row--gutters fr-my-5w">
+                        <div class="fr-col-12">
+                            <h2>Comment ça marche ?</h2>
+                            <figure role="group" class="fr-content-media fr-content-media--sm">
+                                <iframe title="Vidéo de présentation d'AgentConnect" class="fr-responsive-vid"
+                                    src="https://www.dailymotion.com/embed/video/k5hBfgHXFXGuEDyF4Vs"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </figure>
+                        </div>
+                    </div>
             </div>
-            <%- include('partials/cards-presentation.ejs'); %>
-            <div class="fr-grid-row fr-grid-row--gutters fr-my-5w">
-              <div class="fr-col-12">
-                <h2>Comment ça marche ?</h2>
-                <figure role="group" class="fr-content-media fr-content-media--sm">
-                    <iframe title="Vidéo de présentation d'AgentConnect" class="fr-responsive-vid" src="https://www.dailymotion.com/embed/video/k5hBfgHXFXGuEDyF4Vs" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </figure>
-              </div>
-            </div>
-        </div>
-        <%- include('partials/footer.ejs'); %>
+            <%- include('partials/footer.ejs'); %>
     </body>
+
 </html>
