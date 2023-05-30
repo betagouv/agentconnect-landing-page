@@ -25,6 +25,12 @@ app.get('/agents', (req, res)=> {
 app.get('/contact', (req, res)=> {
   res.render('contact')
 })
+app.get('/route', (req, res)=> {
+  res.render('route')
+})
+app.get('/aide', (req, res)=> {
+  res.render('aide')
+})
 
 app.use(express.static('public'));
 app.use("/static", express.static('node_modules/@gouvfr/dsfr/dist'));
