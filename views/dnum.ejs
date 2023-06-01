@@ -1,8 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <%- include('partials/head.ejs'); %>
+<%- include('partials/head.ejs'); %>
+
     <body>
         <%- include('partials/menu.ejs'); %>
-        <%- include('partials/footer.ejs'); %>
+            <div class="background-grey">
+                <div class="fr-container">
+                    <div class="fr-grid-row fr-py-4w">
+                        <div class="hide-content fr-col-1">
+                            <img src="/pictograms/city-hall.svg " class="fr-responsive-img fr-artwork" aria-hidden="true" alt="" />
+                        </div>
+                        <div class="fr-col-8 fr-col-md-5 fr-col-offset-1">
+                            <h1>Directions Numériques,</h1>
+                            <p class="fr-mb-0 fr-h4">Offrez à vos agents un accès à des outils interministériels en un clic.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fr-container">
+                <div class="fr-grid-row fr-mt-4w delete-margin-for-responsive">
+                    <div class="fr-col-12 fr-col-md-3">
+                        <%- include('partials/dnum-nav.ejs'); %>
+                    </div>
+                    <div class="fr-col-12 fr-col-md">
+                        <%- include('partials/dnum-avantages.ejs'); %>
+                        <%- include('partials/dnum-offre.ejs'); %>
+                        <%- include('partials/dnum-rex.ejs'); %>
+                        <%- include('partials/dnum-documentation.ejs'); %>
+                    </div>
+                </div>
+            </div>
+            <%- include('partials/footer.ejs'); %>
     </body>
+
 </html>
