@@ -1,8 +1,37 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <%- include('partials/head.ejs'); %>
+<%- include('partials/head.ejs'); %>
+
     <body>
         <%- include('partials/menu.ejs'); %>
-        <%- include('partials/footer.ejs'); %>
+            <div class="background-grey">
+                <div class="fr-container">
+                    <div class="fr-grid-row fr-py-4w">
+                        <div class="hide-content fr-col-1">
+                            <img src="/pictograms/internet.svg" class="fr-responsive-img fr-artwork" aria-hidden="true" alt="" />
+                        </div>
+                        <div class="fr-col-8 fr-col-md-6 fr-col-offset-1">
+                            <h1>Équipe produit des DNUM</h1>
+                            <p class="fr-mb-0 fr-h4">Authentifiez vos utilisateurs avec le bouton AgentConnect.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fr-container">
+                <div class="fr-grid-row fr-mt-4w delete-margin-for-responsive">
+                    <div class="fr-col-12 fr-col-md-3">
+                        <%- include('partials/dnum/dnum-nav.ejs'); %>
+                    </div>
+                    <div class="fr-col-12 fr-col-md">
+                        <%- include('partials/equipes-produits/ep-avantages.ejs'); %>
+                        <%- include('partials/equipes-produits/ep-offres.ejs'); %>
+                        <%- include('partials/equipes-produits/ep-rex.ejs'); %>
+                        <%- include('partials/equipes-produits/ep-documentation.ejs'); %>
+                    </div>
+                </div>
+            </div>
+            <%- include('partials/equipes-produits/ep-contact.ejs'); %>
+            <%- include('partials/footer.ejs'); %>
     </body>
+
 </html>
