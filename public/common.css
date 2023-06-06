@@ -1,5 +1,21 @@
 @media only screen and (max-width: 768px) {
-    .hide-content {
-      display: none;
-    }
+  .hide-content {
+    display: none;
   }
+
+  .delete-margin-for-responsive {
+    margin-top: 0 !important;
+  }
+}
+
+.background-grey {
+  background-color: var(--background-alt-grey);
+}
+
+.background-blue {
+  background-color: var(--background-alt-blue-france);
+}
+
+.delete-margin {
+  margin-bottom: 0
+}

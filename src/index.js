@@ -3,6 +3,17 @@ var favicon = require('serve-favicon')
 const path = require('path')
 const dotenv = require('dotenv')
 const app = express()
+const { offres_test, offres } = require("./datas-offres")
+
+const routes = [
+  { path: '/', template: 'index' },
+  { path: '/dnum', template: 'dnum', data: { offres_test, offres } },
+  { path: '/equipes', template: 'equipes' },
+  { path: '/agents', template: 'agents' },
+  { path: '/contact', template: 'contact' },
+  { path: '/route', template: 'route' },
+  { path: '/aide', template: 'aide' }
+];
 
 dotenv.config()
 
@@ -10,27 +21,12 @@ app.set("views", path.join(__dirname, "../views"));
 app.set("view engine", "ejs");
 app.use(express.static('assets'));
 
-app.get('/', (req, res) => {
-  res.render('index')
-})
-app.get('/dnum', (req, res)=> {
-  res.render('dnum')
-})
-app.get('/equipes', (req, res)=> {
-  res.render('equipes')
-})
-app.get('/agents', (req, res)=> {
-  res.render('agents')
-})
-app.get('/contact', (req, res)=> {
-  res.render('contact')
-})
-app.get('/route', (req, res)=> {
-  res.render('route')
-})
-app.get('/aide', (req, res)=> {
-  res.render('aide')
-})
+// Définition des routes
+routes.forEach(route => {
+  app.get(route.path, (req, res) => {
+    res.render(route.template, route.data);
+  });
+});
 
 app.use(express.static('public'));
 app.use("/static", express.static('node_modules/@gouvfr/dsfr/dist'));
