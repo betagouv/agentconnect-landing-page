@@ -12,6 +12,10 @@
   background-color: var(--background-alt-grey);
 }
 
+.background-blue {
+  background-color: var(--background-alt-blue-france);
+}
+
 .delete-margin {
   margin-bottom: 0
 }

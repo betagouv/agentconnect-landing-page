@@ -8,9 +8,9 @@
                 <div class="fr-container">
                     <div class="fr-grid-row fr-py-4w">
                         <div class="hide-content fr-col-1">
-                            <img src="/pictograms/city-hall.svg " class="fr-responsive-img fr-artwork" aria-hidden="true" alt="" />
+                            <img src="/pictograms/city-hall.svg" class="fr-responsive-img fr-artwork" aria-hidden="true" alt="" />
                         </div>
-                        <div class="fr-col-8 fr-col-md-5 fr-col-offset-1">
+                        <div class="fr-col-8 fr-col-md-6 fr-col-offset-1">
                             <h1>Directions Numériques,</h1>
                             <p class="fr-mb-0 fr-h4">Offrez à vos agents un accès à des outils interministériels en un clic.</p>
                         </div>
@@ -20,16 +20,17 @@
             <div class="fr-container">
                 <div class="fr-grid-row fr-mt-4w delete-margin-for-responsive">
                     <div class="fr-col-12 fr-col-md-3">
-                        <%- include('partials/dnum-nav.ejs'); %>
+                        <%- include('partials/dnum/dnum-nav.ejs'); %>
                     </div>
                     <div class="fr-col-12 fr-col-md">
-                        <%- include('partials/dnum-avantages.ejs'); %>
-                        <%- include('partials/dnum-offres.ejs'); %>
-                        <%- include('partials/dnum-rex.ejs'); %>
-                        <%- include('partials/dnum-documentation.ejs'); %>
+                        <%- include('partials/dnum/dnum-avantages.ejs'); %>
+                        <%- include('partials/dnum/dnum-offres.ejs'); %>
+                        <%- include('partials/dnum/dnum-rex.ejs'); %>
+                        <%- include('partials/dnum/dnum-documentation.ejs'); %>
                     </div>
                 </div>
             </div>
+            <%- include('partials/dnum/dnum-contact.ejs'); %>
             <%- include('partials/footer.ejs'); %>
     </body>
 
