@@ -1,15 +1,16 @@
+/* FRISE CHRONOLOGIQUE */
+
 .navmenu ul {
     list-style: none;
-    padding-left: 50px;
+    padding-left: 30px;
     position: relative;
     border-left: 2px solid var(--background-action-high-blue-france);
 }
 
 .navmenu ul li {
-    padding: 30px 0;
-    padding-left: 10px;
+    padding: 20px 0;
+    padding-left: 15px;
     position: relative;
-    color: var(--background-action-high-blue-france);
     line-height: 1rem;
 }
 
@@ -19,8 +20,8 @@
     background: white;
     width: 22px;
     height: 22px;
-    left: -62px;
-    top: 43%;
+    left: -42px;
+    top: 46px;
     transform: translateY(-50%);
     border-radius: 50px;
     border: 2px solid var(--background-action-high-blue-france);;
@@ -33,20 +34,40 @@
 
 .navmenu ul li:last-child::before{
     content: '';
-    width: 20px;
-    top: 30px;
+    width: 18px;
+    top: 40px;
     bottom: 0;
     position: absolute;
     background-color: white;
-    left: -60.5px;
+    left: -40px;
 }
 
 .navmenu ul li:first-child::before{
     content: '';
     width: 20px;
     top: 0;
-    height: 30px;
+    height: 38px;
     position: absolute;
     background-color: white;
-    left: -60.5px;
+    left: -41.5px;
+}
+
+/* BULLE */
+
+.bubble{
+  background: var(--background-alt-grey);
+  position: relative;
+  padding: 15px;
+  max-width: 320px;
+}
+
+.bubble::after {
+    content: "";
+    border: 20px solid transparent;
+    border-width: 12px 20px;
+    position: absolute;
+    left: -40px;
+    top: 13px;
+    /* transform: rotate(45deg); */
+    border-right-color: var(--background-alt-grey);
 }
