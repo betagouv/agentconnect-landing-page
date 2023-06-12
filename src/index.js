@@ -3,12 +3,12 @@ var favicon = require('serve-favicon')
 const path = require('path')
 const dotenv = require('dotenv')
 const app = express()
-const { offres_test, offres } = require("./datas-offres")
+const { offres_dnum_test, offres_dnum, offres_ep } = require("./datas-offres")
 
 const routes = [
   { path: '/', template: 'index' },
-  { path: '/dnum', template: 'dnum', data: { offres_test, offres } },
-  { path: '/equipes', template: 'equipes' },
+  { path: '/dnum', template: 'dnum', data: { offres_dnum_test, offres_dnum } },
+  { path: '/equipes', template: 'equipes', data:{offres_ep} },
   { path: '/agents', template: 'agents' },
   { path: '/contact', template: 'contact' },
   { path: '/route', template: 'route' },

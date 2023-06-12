@@ -1,10 +1,7 @@
 <h2 id="offre">Offres disponibles</h2>
-<h3 class="fr-h6">Les services ayant implémenté AgentConnect :</h3>
+<p>Les ministères/opérateurs de l’Etat utilisateurs d’AgentConnect sont :</p>
 <div class="fr-grid-row fr-grid-row--gutters fr-mb-3w">
-    <%- include('./ep-offre'); %>
+    <% offres_ep.forEach(function(offre){ %>
+        <%- include('./ep-offre.ejs', {offre}); %>
+    <% }); %>
 </div>
-<h3 class="fr-h5">Les services en cours de tests :</h3>
-    <%- include('./ep-offre-test.ejs'); %>
-<ul>
-    
-</ul>
