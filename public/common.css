@@ -1,13 +1,3 @@
-@media only screen and (max-width: 768px) {
-  .hide-content {
-    display: none;
-  }
-
-  .delete-margin-for-responsive {
-    margin-top: 0 !important;
-  }
-}
-
 .background-grey {
   background-color: var(--background-alt-grey);
 }
@@ -18,4 +8,32 @@
 
 .delete-margin {
   margin-bottom: 0
+}
+
+/* CSS POUR LA PAGE AGENTS */
+
+.color-blue{
+  color: var(--text-title-blue-france)
+}
+
+.alignment{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-centered{
+  text-align: center;
+}
+
+/* RESPONSIVE CSS */
+
+@media only screen and (max-width: 768px) {
+  .hide-content {
+    display: none;
+  }
+
+  .delete-margin-for-responsive {
+    margin-top: 0 !important;
+  }
 }
