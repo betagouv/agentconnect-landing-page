@@ -68,6 +68,5 @@
     position: absolute;
     left: -40px;
     top: 13px;
-    /* transform: rotate(45deg); */
     border-right-color: var(--background-alt-grey);
 }

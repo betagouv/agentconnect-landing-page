@@ -35,7 +35,7 @@ exports.offres_dnum_test=[
 
 
 exports.offres_ep=[
-    {title:"Ministère en charge de l'économie", description: "", ulr:"https://www.economie.gouv.fr/"},
+    {title:"Ministère en charge de l'économie", description: "", url:"https://www.economie.gouv.fr/"},
     {title:"Ministère en charge de l’écologie", description:"", url:"https://www.ecologie.gouv.fr/"},
     {title:"Ministère en charge de la transition énergétique", description:"", url:"https://www.ecologie.gouv.fr/"},
     {title:"Ministère de la mer", description:"", url:"https://mer.gouv.fr/"},
