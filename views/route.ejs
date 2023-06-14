@@ -1,8 +1,64 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <%- include('partials/head.ejs'); %>
+<%- include('partials/head.ejs'); %>
+
     <body>
         <%- include('partials/menu.ejs'); %>
-        <%- include('partials/footer.ejs'); %>
+            <div class="background-grey">
+                <div class="fr-container">
+                    <div class="fr-grid-row fr-grid-row--gutters fr-py-4w">
+                        <div class="fr-col-8 fr-col-md-6 fr-col-offset-1">
+                            <h1 class="fr-mb-0">Feuille de route</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fr-container fr-my-4w">
+                <div class="fr-grid-row fr-grid-row--gutters">
+                    <div class="fr-col-8 fr-col-offset-1">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s
+                        </p>
+                        <nav class="navmenu fr-col-12 fr-col-md-6">
+                            <ul>
+                                <li>
+                                    <div class="bubble">
+                                        <h2 class="fr-h6 fr-mb-0">Mai 2022</h2>
+                                        <p class="fr-mb-0">On a fait ça</p>
+                                    </div>
+                                </li>
+                                <li class="active">
+                                    <div class="bubble">
+                                        <h2 class="fr-h6 fr-mb-0">Mai 2023</h2>
+                                        <p class="fr-mb-0">On fait fait ça</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="bubble">
+                                        <h2 class="fr-h6 fr-mb-0">Mai 2024</h2>
+                                        <p class="fr-mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="bubble">
+                                        <h2 class="fr-h6 fr-mb-0">Mai 2025</h2>
+                                        <p class="fr-mb-0">On va faire ça</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="bubble">
+                                        <h2 class="fr-h6 fr-mb-0">Mai 2099</h2>
+                                        <p class="fr-mb-0">On va faire ça</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <%- include('partials/footer.ejs'); %>
     </body>
+
 </html>

@@ -1,4 +1,4 @@
-exports.offres=[ {title: "OSMOSE" ,
+exports.offres_dnum=[ {title: "OSMOSE" ,
     url: "https://osmose.numerique.gouv.fr/plugins/DINUMThemePlugin/jsp/displayPage.jsp?id=c_2251950" ,
     description: "La plateforme collaborative des communautés professionnelles de l’État" }, {title: "RESANA" ,
     url: "https://resana.numerique.gouv.fr/public/utilisateur/afficherPageConnexionAnnexe?page=apropos" ,
@@ -28,7 +28,17 @@ exports.offres=[ {title: "OSMOSE" ,
     description: "Portail des applications interministérielles RH (fonctionne uniquement sur le RIE)" } ] 
 
 
-exports.offres_test=[ 
+exports.offres_dnum_test=[ 
     {title: "E-Campus", description: "Plateforme de formation professionnelle pour les agents du Ministère de l'Intérieur" }, 
     {title: "Contrats Territoires", description: "Service pour élaborer les Contrats Plan État-Région (CPER)" },
     {title: "SPOTE", description: "Plateforme numérique collaborative des offres numériques de l'État" } ]
+
+
+exports.offres_ep=[
+    {title:"Ministère en charge de l'économie", description: "", url:"https://www.economie.gouv.fr/"},
+    {title:"Ministère en charge de l’écologie", description:"", url:"https://www.ecologie.gouv.fr/"},
+    {title:"Ministère en charge de la transition énergétique", description:"", url:"https://www.ecologie.gouv.fr/"},
+    {title:"Ministère de la mer", description:"", url:"https://mer.gouv.fr/"},
+    {title:"CEREMA", description:"", url:"https://www.cerema.fr/fr"},
+    {title:"INRAE", description:"", url:"https://www.inrae.fr/"},
+]
