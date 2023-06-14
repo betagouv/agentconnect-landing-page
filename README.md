@@ -6,9 +6,6 @@ Site vitrine du service Agent Connect.
 
 ```
 npm install
+cp .env.example .env
 docker-compose up
 ```
-
-Créer votre fichier `.env`
-
-Un `.env.example` est commité, vous pouvez le copier ! 
