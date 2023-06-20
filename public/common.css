@@ -1,21 +1,15 @@
-@media only screen and (max-width: 768px) {
-  .hide-content {
-    display: none;
-  }
+/* CSS POUR LA PAGE AGENTS */
 
-  .delete-margin-for-responsive {
-    margin-top: 0 !important;
-  }
+.space-between{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.background-grey {
-  background-color: var(--background-alt-grey);
+.text-centered{
+  text-align: center;
 }
 
-.background-blue {
-  background-color: var(--background-alt-blue-france);
-}
-
-.delete-margin {
-  margin-bottom: 0
+.js-eligibility-hidden{
+  display: none;
 }
