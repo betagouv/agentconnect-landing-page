@@ -1,27 +1,6 @@
-.background-grey {
-  background-color: var(--background-alt-grey);
-}
-
-.background-blue {
-  background-color: var(--background-action-high-blue-france);
-}
-
-.delete-margin {
-  margin-bottom: 0
-}
-
-.background-white{
-  background-color: white;
-} 
-
-
 /* CSS POUR LA PAGE AGENTS */
 
-.color-blue{
-  color: var(--text-title-blue-france)
-}
-
-.alignment{
+.space-between{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -31,14 +10,6 @@
   text-align: center;
 }
 
-/* RESPONSIVE CSS */
-
-@media only screen and (max-width: 768px) {
-  .hide-content {
-    display: none;
-  }
-
-  .delete-margin-for-responsive {
-    margin-top: 0 !important;
-  }
+.js-eligibility-hidden{
+  display: none;
 }
