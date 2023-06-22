@@ -9,7 +9,6 @@ const routes = [
   { path: '/', template: 'index' },
   { path: '/fi', template: 'fi', data: { offres_fi_test, offres_fi } },
   { path: '/fs', template: 'fs', data:{offres_fs} },
-  { path: '/agents', template: 'agents' },
   { path: '/route', template: 'route' },
   { path: '/aide', template: 'aide' }
 ];
