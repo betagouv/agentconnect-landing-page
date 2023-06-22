@@ -7,7 +7,7 @@ const { offres_dnum_test, offres_dnum, offres_fs } = require("./datas-offres")
 
 const routes = [
   { path: '/', template: 'index' },
-  { path: '/dnum', template: 'dnum', data: { offres_dnum_test, offres_dnum } },
+  { path: '/fi', template: 'fi', data: { offres_dnum_test, offres_dnum } },
   { path: '/fs', template: 'fs', data:{offres_fs} },
   { path: '/agents', template: 'agents' },
   { path: '/contact', template: 'contact' },
