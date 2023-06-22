@@ -6,29 +6,108 @@
         <%- include('partials/menu.ejs'); %>
             <div class="fr-container fr-my-3w">
                 <div class="fr-grid-row fr-grid-row--gutters fr-my-5w">
-                    <div class="fr-col-md-6">
+                    <div class="fr-col-md-5">
                         <h1>AgentConnect simplifie le quotidien des agents.</h1>
                         <p class="fr-text--lead">Vous êtes seulement à un clic de vos outils collaboratifs et de vos
                             outils métiers !</p>
                     </div>
-                    <div class="fr-col-md-6">
+                    <div class="fr-col-md-5 fr-col-offset-2">
                         <div class="fr-content-media__img fr-mt-n4w fr-hidden fr-unhidden-md">
                             <img class="fr-responsive-img" src="/pictograms/illu_hero.png" alt="">
                         </div>
                     </div>
                 </div>
-                <%- include('partials/cards-presentation.ejs'); %>
-                    <div class="fr-grid-row fr-grid-row--gutters fr-my-5w">
-                        <div class="fr-col-12">
-                            <h2>Comment ça marche ?</h2>
-                            <figure role="group" class="fr-content-media fr-content-media--sm">
-                                <iframe title="Vidéo de présentation d'AgentConnect" class="fr-responsive-vid"
-                                    src="https://www.dailymotion.com/embed/video/k5hBfgHXFXGuEDyF4Vs"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </figure>
+
+                <!-- QUI ? -->
+                <div class="fr-grid-row fr-mt-6w">
+                    <h2>Qui peut utiliser AgentConnect ?</h2>
+                </div>
+                <div class="fr-grid-row fr-grid-row--middle">
+                    <div class="fr-hidden fr-unhidden-md fr-col-3">
+                        <img src="/pictograms/cyberspace2.png" class="fr-responsive-img fr-artwork" aria-hidden="true" alt="" />
+                    </div>
+                    <p class="fr-col-offset-1 fr-col-8 fr-mb-0">Pour utiliser AgentConnect, il faut faire partie d’un ministère (administrations centrales ou services déconcentrés) ou d’un opérateur de l’État et disposer d’un compte d’une administration ou d’un Ministère disponible via AgentConnect.</p>
+                </div>
+                    
+
+                <!-- POURQUOI ? -->
+
+                <div class="fr-grid-row fr-mt-6w">
+                    <h2 class="">Pourquoi utiliser AgentConnect &nbsp;?</h2>
+                </div>
+                <div class="fr-grid-row fr-grid-row--middle fr-grid-row--gutters">
+                    <div class="fr-col-md-6">
+                        <h3 class="fr-h5 fr-mb-0">Pas besoin de créer de nouveaux comptes</h3>
+                        <p class="fr-text--lg">Utilisez un compte que vous possédez déjà pour accéder aux applications métier « AgentConnectées ».</p>
+                        <h3 class="fr-h5 fr-mb-0">Votre navigation simplifiée</h3>
+                        <p class="fr-text--lg">Une authentification unique qui vous permet de naviguer entre plusieurs services « AgentConnectés » sans avoir à vous reconnecter.</p>
+                        <h3 class="fr-h5 fr-mb-0">Des outils interministériels à votre disposition</h3>
+                        <p class="fr-text--lg">De nombreuses applications métier et outils collaboratifs en commun entre tous les ministères.</p>
+                        <h3 class="fr-h5 fr-mb-0">Un service sécurisé</h3>
+                        <p class="fr-text--lg">Vos données personnelles sont protégées.</p>
+                    </div>
+                    <div class="fr-hidden fr-unhidden-md fr-col-offset-1 fr-col-5">
+                        <img src="/pictograms/cyberspace2.png" class="fr-responsive-img fr-artwork" aria-hidden="true" alt="" />
+                    </div>
+                </div>
+
+                <!-- COMMENT ? -->
+
+                <div class="fr-grid-row fr-mt-6w">
+                    <h2>Comment ça marche&nbsp;?</h2>
+                </div>
+                <div class="fr-grid-row fr-grid-row--center fr-grid-row--gutters fr-mb-2w">
+                    <div class="fr-col-12 fr-col-md-3">
+                        <div class="text-centered">
+                            <h3 class="fr-text-title--blue-france">1</h3>
+                            <p>Je clique sur le bouton AgentConnect</p>
+                        </div> 
+                        <div>
+                            <img src="/pictograms/tuto-1.svg" class="fr-responsive-img fr-artwork" aria-hidden="true" alt="" />
                         </div>
                     </div>
+                    <div class="fr-col-12 fr-col-md-3 space-between">
+                        <div class="text-centered">
+                            <h3 class="fr-text-title--blue-france">2</h3>
+                            <p>Je cherche mon administration</p>
+                        </div>
+                        <div>
+                            <img src="/pictograms/tuto-2.svg" class="fr-responsive-img fr-artwork" aria-hidden="true" alt="" />
+                        </div>
+                    </div>
+                    <div class="fr-col-12 fr-col-md-3">
+                        <div class="text-centered">
+                            <h3 class="fr-text-title--blue-france">3</h3>
+                            <p>Je sélectionne mon compte professionnel</p>
+                        </div>
+                        <div>
+                            <img src="/pictograms/tuto-3.svg" class="fr-responsive-img fr-artwork" aria-hidden="true" alt="" />
+                        </div>
+                    </div>
+                    <div class="fr-col-12 fr-col-md-3">
+                        <div class="text-centered">
+                            <h3 class="fr-text-title--blue-france">4</h3>
+                            <p>Je rentre mes identifiants professionnels</p>
+                        </div>
+                        <div>
+                            <img src="/pictograms/tuto-4.svg" class="fr-responsive-img fr-artwork" aria-hidden="true" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DÉCOUVRIR -->
+
+                <div class="fr-grid-row fr-mt-6w">
+                    <div class="fr-col-12">
+                        <h2>Découvrir AgentConnect en vidéo</h2>
+                        <figure role="group" class="fr-content-media fr-content-media--sm">
+                            <iframe title="Vidéo de présentation d'AgentConnect" class="fr-responsive-vid"
+                                src="https://www.dailymotion.com/embed/video/k5hBfgHXFXGuEDyF4Vs"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </figure>
+                    </div>
+                </div>
             </div>
             <%- include('partials/footer.ejs'); %>
     </body>
