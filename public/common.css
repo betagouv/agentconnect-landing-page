@@ -1,11 +1,23 @@
 /* CSS POUR LA PAGE AGENTS */
-
 .space-between{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+/* LISTE EN COLONNE --- A MODIFIER LORSQUE LA MAQUETTE SERA PERENNE */
+
+@media screen and (min-width: 768px){
+  .column-list{
+    column-count: 2;
+  }
+}
+
+.column-list > li {
+  break-inside: avoid-column;
+}
+
+/* UTILITY */
 .text-centered{
   text-align: center;
 }
