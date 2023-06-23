@@ -10,7 +10,12 @@ const routes = [
   { path: '/fi', template: 'fi', data: { offres_fi_test, offres_fi } },
   { path: '/fs', template: 'fs', data: {offres_fs_agents} },
   { path: '/route', template: 'route' },
-  { path: '/aide', template: 'aide' }
+  { path: '/aide', template: 'aide' },
+  { path: '/plan-du-site', template: 'plan-site'},
+  { path: '/accessibilite', template: 'accessibilite'},
+  { path: '/mentions-legales', template: 'mentions-legales'},
+  { path: '/cgu', template: 'cgu'},
+  { path: '/statistiques', template: 'statistiques'},
 ];
 
 dotenv.config()
