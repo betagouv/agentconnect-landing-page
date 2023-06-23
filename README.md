@@ -1,6 +1,6 @@
-# Agent Connect - site vitrine
+# AgentConnect - site vitrine
 
-Site vitrine du service Agent Connect.
+Site vitrine du service AgentConnect.
 
 ## Démarrage rapide
 

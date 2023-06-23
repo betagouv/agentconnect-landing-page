@@ -2,7 +2,7 @@ exports.offres_fi=[ {title: "Osmose" ,
     url: "https://osmose.numerique.gouv.fr/plugins/DINUMThemePlugin/jsp/front/privateLoginOsmose.jsp?redirect=https%3A%2F%2Fosmose.numerique.gouv.fr%2Fjcms%2F" ,
     description: "Outil de travail collaboratif" }, {title: "Resana" ,
     url: "https://resana.numerique.gouv.fr/public/" ,
-    description: "Outil de travail collaboratif" }, {title: "Webconférence de l’Etat" ,
+    description: "Outil de travail collaboratif" }, {title: "Webconférence de l’État" ,
     url: "https://webconf.numerique.gouv.fr/" ,
     description: "Outil de conférence à distance" }, {title: "Webinaire" ,
     url: "https://webinaire.numerique.gouv.fr/welcome" ,
@@ -13,7 +13,7 @@ exports.offres_fi=[ {title: "Osmose" ,
     url: "https://sill.code.gouv.fr/" ,
     description: "Catalogue de référence des logiciels libres au sein de l’État" },
     {title: "France Transfert" , url: "https://francetransfert.numerique.gouv.fr/connect",
-    description: "Envoi de fichiers volumineux non sensibles de manière sécurisée à un agent de l’Etat ou entre agent"
+    description: "Envoi de fichiers volumineux non sensibles de manière sécurisée à un agent de l’État ou entre agent"
     }, {title: "Mobilic" , url: "https://mobilic.beta.gouv.fr/" ,
     description: "Plateforme numérique gouvernementale de suivi du temps de travail dans le transport routier léger"
     }, {title: "Datalab SSP Cloud" , url: "https://datalab.sspcloud.fr/home)" ,
@@ -27,12 +27,13 @@ exports.offres_fi=[ {title: "Osmose" ,
     {title: "Mentor" , url: "https://mentor.gouv.fr/login/index.php" ,
     description: "Plateforme interministérielle de formation professionnelle" }, {title: "Portail CISIRH RIE" ,
     url: "https://portail.cisirh.rie.gouv.fr/" ,
-    description: "Portail des applications interministérielles RH" } ] 
+    description: "Portail des applications interministérielles RH" },
+    {title: "Contrats Territoires Internet et RIE", url: "https://contrats-territoires.interieur.gouv.fr/accounts/login", description: "Service pour élaborer les Contrats Plan État-Région (CPER)" }
+ ] 
 
 
 exports.offres_fi_test=[ 
     {title: "E-Campus", description: "Plateforme de formation professionnelle pour les agents du Ministère de l'Intérieur" }, 
-    {title: "Contrats Territoires Internet et RIE", description: "Service pour élaborer les Contrats Plan État-Région (CPER)" },
     {title: "SPOTE", description: "Plateforme numérique collaborative des offres numériques de l'État" } ]
 
 
