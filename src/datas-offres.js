@@ -38,13 +38,13 @@ exports.offres_fi_test=[
 
 
 exports.offres_fs_agents=[
-    {title:"Ministère de l’Économie, des Finances et de la Souveraineté industrielle et numérique :", description: "cf entités concernées ci-dessous", url:"https://www.economie.gouv.fr/"},
+    {title:"Ministère de l’Économie, des Finances et de la Souveraineté industrielle et numérique", description: "cf entités concernées ci-dessous", url:"https://www.economie.gouv.fr/"},
     {title:"Institut National de la Statistique et des Etudes Economiques (MEFSIN)", url:"https://www.insee.fr/fr/accueil"},
     {title:"Direction générale des Finances publiques (MEFSIN)", url:"https://www.economie.gouv.fr/dgfip"},
     {title:"Direction générale des Douanes et Droits indirects (MEFSIN)", url:"https://www.douane.gouv.fr/"},
     {title:"Direction interministérielle du numérique (MEFSIN)", url:"https://www.numerique.gouv.fr/dinum/"},
     {title:"Ministère de la Transition écologique et de la Cohésion des territoires", url:"https://www.ecologie.gouv.fr/"},
     {title:"Ministère de la Transition énergétique", url:"https://www.ecologie.gouv.fr/"},
-    {title:"CEREMA :", description: "Centre d’études et d’expertise sur les risques, l’environnement, la mobilité et l’aménagement", url:"https://www.cerema.fr/fr"},
-    {title:"INRAE :", description: "Institut national de recherche pour l’agriculture, l’alimentation et l’environnement", url:"https://www.inrae.fr/"},
+    {title:"CEREMA", description: "Centre d’études et d’expertise sur les risques, l’environnement, la mobilité et l’aménagement", url:"https://www.cerema.fr/fr"},
+    {title:"INRAE", description: "Institut national de recherche pour l’agriculture, l’alimentation et l’environnement", url:"https://www.inrae.fr/"},
 ]
