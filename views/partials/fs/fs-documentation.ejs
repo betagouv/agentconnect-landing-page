@@ -1,14 +1,14 @@
-<h2 class="fr-mt-4w" id="documentation">Documentation technique</h2>
+<h2 class="fr-mt-4w" id="prerequis-fs">Pré-requis pour devenir Fournisseurs de Services</h2>
 <fieldset class="fr-fieldset" id="checkboxes" aria-labelledby="checkboxes-legend checkboxes-messages">
     <legend class="fr-fieldset__legend--regular fr-fieldset__legend" id="checkboxes-legend">
-        Pour devenir partenaires utilisateurs d’AgentConnect, vous devez :
+        Pour être en mesure d’implémenter AgentConnect sur un de vos services numériques en ligne, vous devez&nbsp;:
     </legend>
 
     <div class="fr-fieldset__element">
         <div class="fr-checkbox-group">
             <input name="checkboxes-1" id="checkboxes-1" type="checkbox" aria-describedby="checkboxes-1-messages">
             <label class="fr-label" for="checkboxes-1">
-                Être un ministère (adminitration centrale, service déconcentré) ou un opérateur de l’État
+                Être un service numérique développé par un Ministère ou un Opérateur de l’État
             </label>
             <div class="fr-messages-group" id="checkboxes-1-messages" aria-live="assertive">
             </div>
@@ -18,7 +18,7 @@
         <div class="fr-checkbox-group">
             <input name="checkboxes-2" id="checkboxes-2" type="checkbox" aria-describedby="checkboxes-2-messages">
             <label class="fr-label" for="checkboxes-2">
-                Être exposé sur le réseau interministériel de l’Etat (RIE) ou sur internet
+                Être exposé sur le réseau interministériel de l’État (RIE) ou sur internet
             </label>
             <div class="fr-messages-group" id="checkboxes-2-messages" aria-live="assertive">
             </div>
@@ -28,7 +28,7 @@
         <div class="fr-checkbox-group">
             <input name="checkboxes-3" id="checkboxes-3" type="checkbox" aria-describedby="checkboxes-3-messages">
             <label class="fr-label" for="checkboxes-3">
-                Déployer une cinématique sur le standard OpenID Connect
+                Utiliser le protocole OpenID Connect sur lequel s’appuie AgentConnect (couche d’identification basée sur protocole OAuth 2.0). Les Fournisseurs de Services doivent être des clients OpenID Connect (aussi appelés relying parties)
             </label>
             <div class="fr-messages-group" id="checkboxes-3-messages" aria-live="assertive">
             </div>
@@ -38,8 +38,7 @@
         <div class="fr-checkbox-group">
             <input name="checkboxes-4" id="checkboxes-4" type="checkbox" aria-describedby="checkboxes-4-messages">
             <label class="fr-label" for="checkboxes-4">
-                Lancer une démarche d’homologation selon le Référentiel Général de Sécurité (RGS) de niveau 1 / disposer
-                d’une attestation d’homologation RGS de niveau 1
+                Lancer une démarche d’homologation RGS ou disposer d’une attestation d’homologation de niveau 1 (authentification login / mdp) pour intégrer AgentConnect
             </label>
             <div class="fr-messages-group" id="checkboxes-4-messages" aria-live="assertive">
             </div>
@@ -49,18 +48,25 @@
         <div class="fr-checkbox-group">
             <input name="checkboxes-5" id="checkboxes-5" type="checkbox" aria-describedby="checkboxes-5-messages">
             <label class="fr-label" for="checkboxes-5">
-                Être en capacité de transmettre à AgentConnect 4 données obligatoires :
+                Être en capacité de faire la réconciliation d’identité à partir des données d’identité transmises par AgentConnect pour gérer les habilitations
             </label>
-            <ul class="fr-ml-4w">
-                <li>Nom de l’agent</li>
-                <li>Prénom de l’agent</li>
-                <li>Email professionnel de l’agent</li>
-                <li>Identifiant technique (du FI)</li>
-            </ul>
             <div class="fr-messages-group" id="checkboxes-5-messages" aria-live="assertive">
             </div>
         </div>
     </div>
     <div class="fr-messages-group" id="checkboxes-messages" aria-live="assertive">
     </div>
+    <div class="fr-fieldset__element">
+        <div class="fr-checkbox-group">
+            <input name="checkboxes-6" id="checkboxes-6" type="checkbox" aria-describedby="checkboxes-6-messages">
+            <label class="fr-label" for="checkboxes-6">
+                Être en mesure d’assurer le maintien d’une procédure alternative à AgentConnect. Cette procédure doit permettre l’accès, dans des conditions analogues, à la même prestation de service public
+            </label>
+            <div class="fr-messages-group" id="checkboxes-6-messages" aria-live="assertive">
+            </div>
+        </div>
+    </div>
+    <div class="fr-messages-group" id="checkboxes-messages" aria-live="assertive">
+    </div>
 </fieldset>
+<p>Pour plus d’informations, n’hésitez pas à consulter <a href="https://github.com/france-connect/Documentation-AgentConnect/blob/main/doc_fs.md">la documentation technique</a> mise à votre disposition.</p>

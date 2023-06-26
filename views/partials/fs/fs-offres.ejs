@@ -1,0 +1,9 @@
+<h2 id="offre-ep">Offres disponibles</h2>
+<h3 class="fr-h6">Les agents des Ministères et Opérateurs de l’État listés ci-dessous pouveut se connecter via AgentConnect.</h3>
+<div class="fr-grid-row fr-grid-row--gutters fr-mb-3w">
+    <% offres_fs_agents.forEach(function(offre){ %>
+        <%- include('./fs-offre.ejs', {offre}); %>
+    <% }); %>
+</div>
+<span class="fr-icon-file-download-line" aria-hidden="true"></span>
+<a href="https://agentconnect.gouv.fr/files/Liste_des_entit%C3%A9s_concern%C3%A9es_pour_les_agents_de_l_Administration_Centrale.pdf">Liste des entités concernées pour les agents de l'Administration Centrale (PDF 611 k)</a>
