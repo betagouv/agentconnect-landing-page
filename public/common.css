@@ -34,3 +34,7 @@
 .secondary-list{
   list-style-type: circle;
 }
+
+.shade{
+  filter: drop-shadow(var(--raised-shadow));
+}
