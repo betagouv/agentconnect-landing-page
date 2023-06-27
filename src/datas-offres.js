@@ -38,7 +38,7 @@ exports.offres_fi_test=[
 
 
 exports.offres_fs_agents=[
-    {title:"Ministère de l’Économie, des Finances et de la Souveraineté industrielle et numérique", description: "cf entités concernées ci-dessous", url:"https://www.economie.gouv.fr/"},
+    {title:"Ministère de l’Économie, des Finances et de la Souveraineté industrielle et numérique*", url:"https://www.economie.gouv.fr/"},
     {title:"Institut National de la Statistique et des Etudes Economiques (MEFSIN)", url:"https://www.insee.fr/fr/accueil"},
     {title:"Direction générale des Finances publiques (MEFSIN)", url:"https://www.economie.gouv.fr/dgfip"},
     {title:"Direction générale des Douanes et Droits indirects (MEFSIN)", url:"https://www.douane.gouv.fr/"},
