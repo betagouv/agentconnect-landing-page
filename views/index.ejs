@@ -20,14 +20,30 @@
 
                 <!-- QUI ? -->
                 <div class="fr-grid-row fr-mt-6w">
-                    <h2>Qui peut utiliser AgentConnect&nbsp;?</h2>
-                </div>
-                <div class="fr-grid-row fr-grid-row--middle">
-                    <div class="fr-hidden fr-unhidden-md fr-col-3">
-                        <img src="/pictograms/logo-agentconnect.svg" class="fr-responsive-img fr-artwork" aria-hidden="true" alt="" />
+                    <div class="fr-callout fr-fi-information-line">
+                        <h3 class="fr-callout__title">Testez votre éligibilité !</h3>
+                        <p class="fr-callout__text">
+                            Êtes-vous membre de la Fonction publique de l’État ?
+                            (Ministères, administration centrale, opérateurs de l'Etat)
+                        <br></br>
+                    <fieldset class="fr-fieldset" id="radio-inline" aria-labelledby="radio-inline-legend radio-inline-messages">
+                        <div class="fr-fieldset__element fr-fieldset__element--inline">
+                            <div class="fr-radio-group"><input type="radio" id="radio-inline-1" name="radio-inline">            <label class="fr-label" for="radio-inline-1">oui</label></div></div>    <div class="fr-fieldset__element fr-fieldset__element--inline">
+                                <div class="fr-radio-group"><input type="radio" id="radio-inline-2" name="radio-inline">
+                                    <label class="fr-label" for="radio-inline-2">non</label>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="fr-btn">
+                            Valider
+                            </button>
+                        </div>
                     </div>
-                    <p class="fr-col-offset-md-1 fr-col-8 fr-mb-0">Pour utiliser AgentConnect, il faut faire partie d’un Ministère (administrations centrales ou services déconcentrés) ou d’un Opérateur de l’État et disposer d’un compte d’une administration ou d’un Ministère disponible via AgentConnect.</p>
+
+                    </fieldset>
+                </p>
                 </div>
+
                     
 
                 <!-- POURQUOI ? -->
@@ -47,7 +63,7 @@
                         <p class="fr-text--lg">Vos données personnelles sont protégées.</p>
                     </div>
                     <div class="fr-hidden fr-unhidden-md fr-col-offset-1 fr-col-5">
-                        <img src="/pictograms/cyberspace2.png" class="fr-responsive-img fr-artwork" aria-hidden="true" alt="" />
+                        <img src="/pictograms/checklist.png" class="fr-responsive-img fr-artwork" aria-hidden="true" alt="" />
                     </div>
                 </div>
 
@@ -108,9 +124,6 @@
                         </figure>
                     </div>
                 </div>
-
-                <!-- OFFRES DISPONIBLES -->
-                <%- include('partials/agents/offres-agents.ejs', {offres_fs_agents}); %>
             </div>
             <%- include('partials/footer.ejs'); %>
     </body>
