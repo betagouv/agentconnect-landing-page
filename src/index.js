@@ -27,14 +27,16 @@ app.use(express.static('assets'));
 // Définition des routes
 routes.forEach(route => {
   app.get(route.path, (req, res) => {
-    res.render(route.template, route.data);
+    let data = route.data
+    data.url = req.url
+    res.render(route.template, data);
   });
 });
 
 app.use(express.static('public'));
 app.use("/static", express.static('node_modules/@gouvfr/dsfr/dist'));
 
-app.use(favicon(path.join(__dirname, '../public', 'favicon.svg')))
+app.use(favicon(path.join(__dirname, '../public/favicon', 'favicon.svg')))
 
 app.listen(process.env.PORT, () => {
   console.log(`Vous êtes sur le port ${process.env.PORT}`)
