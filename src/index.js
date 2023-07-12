@@ -8,7 +8,7 @@ const { offres_fi_test, offres_fi, offres_fs_agents } = require("./datas-offres"
 const routes = [
   { path: '/', template: 'index', data: {offres_fs_agents, title: "Agents - AgentConnect"} },
   { path: '/fi', template: 'fi', data: {offres_fi_test, offres_fi, title: "Fournisseurs d'Identité - AgentConnect"} },
-  { path: '/fs', template: 'fs', data: {offres_fs_agents, title: "Fournisseurs de Services - AgentConnect"} },
+  { path: '/fs', template: 'fs', data: {title: "Fournisseurs de Services - AgentConnect"} },
   { path: '/route', template: 'route', data: {title: "Feuille de route - AgentConnect"} },
   { path: '/aide', template: 'aide',  data: {title: "Aide - AgentConnect"} },
   { path: '/plan-du-site', template: 'plan-site',  data: {title: "Plan du site - AgentConnect"}},
