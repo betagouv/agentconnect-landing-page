@@ -38,3 +38,7 @@
 .shade{
   filter: drop-shadow(var(--raised-shadow));
 }
+
+.fr-table td, .fr-table th{
+  vertical-align: top;
+}

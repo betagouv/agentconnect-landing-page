@@ -1,12 +1,42 @@
-<div class="fr-col-12 fr-col-md-4">
-    <div class="fr-card fr-enlarge-link">
-        <div class="fr-card__body">
-            <div class="fr-card__content">
-                <h4 class="fr-card__title fr-h6">
-                    <a href="<%= offre.url%>"><%= offre.title %></a>
-                </h4>
-                <p class="fr-card__desc"><%= offre.description %></p>
-            </div>
-        </div>
-    </div>
+<div class="fr-table">
+    <table>
+        <caption class="fr-h6">Ministères et administrations pouvant se connecter via AgentConnect :</caption>
+        <thead>
+            <tr>
+                <th scope="col">Organisation</th>
+                <th scope="col">Directions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>INRAE</td>
+                <td>-</td>  
+            </tr>
+            <tr>
+                <td>CEREMA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Ministère de l’Économie, des Finances et de la Souveraineté industrielle et numérique</td>
+                <td>
+                    <ul class="fr-mt-0">
+                        <li>Direction générale des Douanes et Droits indirects (DGDDI)</li>
+                        <li>Institut National de la Statistique et des Études Économiques (INSEE)</li>
+                        <li>Direction générale des Finances publiques (DGFIP)</li>
+                        <li>Direction interministérielle du numériques (DINUM)</li>
+                    </ul>
+                    <!-- <a class="fr-text--xs" href="https://agentconnect.gouv.fr/files/Liste_des_entit%C3%A9s_concern%C3%A9es_pour_les_agents_de_l_Administration_Centrale.pdf">Agents de l'Administration Centrale du MEFSIN concernés (PDF&nbsp;611&nbsp;ko)</a>
+                    <span class="fr-icon-file-download-line" aria-hidden="true"></span> -->
+                </td>
+            </tr>
+            <tr>
+                <td>Ministère de la Transition écologique et de la Cohésion des territoires</td>
+                <td>Toutes les directions</td>
+            </tr>
+            <tr>
+                <td>Ministère de la Transition énergétique</td>
+                <td>Toutes les directions</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
