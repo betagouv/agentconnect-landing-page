@@ -1,13 +1,12 @@
-<h2 id="offre-dnum" class="fr-mt-8w">Offres disponibles</h2>
-<h3 class="fr-h6">Les services listés ci-dessous proposent AgentConnect&nbsp;:</h3>
+<h2 id="offre-dnum" class="fr-mt-8w">Liste des services proposant AgentConnect</h2>
 <div class="fr-grid-row fr-grid-row--gutters fr-mb-3w">
     <% offres_fi.forEach(function(offre){ %>
         <%- include('./fi-offre.ejs', {offre}); %>
-    <% }); %>
+            <% }); %>
 </div>
 <h3 class="fr-h5">Les services en cours de test&nbsp;:</h3>
 <ul>
     <% offres_fi_test.forEach(function(offre_test){ %>
         <%- include('./fi-offre-test.ejs', {offre_test}); %>
-    <% }); %>
+            <% }); %>
 </ul>
