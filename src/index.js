@@ -15,7 +15,7 @@ const routes = [
   { path: '/accessibilite', template: 'accessibilite',  data: {title: "Accessibilité - AgentConnect"}},
   { path: '/mentions-legales', template: 'mentions-legales',  data: {title: "Mentions Légales - AgentConnect"}},
   { path: '/cgu', template: 'cgu',  data: {title: "Conditions générales d'utilisation - AgentConnect"}},
-  { path: '/statistiques', template: 'statistiques',  data: {title: "Statistiques - AgentConnect"}},
+  { path: '/stats', template: 'stats',  data: {title: "Statistiques - AgentConnect"}},
 ];
 
 dotenv.config()
