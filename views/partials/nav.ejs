@@ -1,11 +1,13 @@
-<% let links = [{title:"Agents publics", url: "/"}, {title: "Fournisseurs de Services Numériques", url:"/fs"}, {title: "Fournisseurs d’Identité Ministériels", url: "/fi"}] %> 
+<% let links=[{title:"Agent public", url: "/" }, {title: "Fournisseur de Services Numériques" , url:"/fs"},
+    {title: "Fournisseur d’Identité Ministériel" , url: "/fi" }] %>
 
-<nav class="fr-nav" id="navigation-494" role="navigation" aria-label="Menu principal">
-    <ul class="fr-nav__list">
-        <% links.forEach(function(link){ %>
-            <li class="fr-nav__item">
-                <a class="fr-nav__link" href="<%= link.url%>" <%= link.url === url ? 'aria-current=page' : '' %> > <%= link.title %></a>
-            </li>
-        <% }); %>
-    </ul>
-</nav>
+    <nav class="fr-nav" id="navigation-494" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+            <% links.forEach(function(link){ %>
+                <li class="fr-nav__item">
+                    <a class="fr-nav__link" href="<%= link.url%>" <%=link.url===url ? 'aria-current=page' : '' %> > <%=
+                            link.title %></a>
+                </li>
+                <% }); %>
+        </ul>
+    </nav>
