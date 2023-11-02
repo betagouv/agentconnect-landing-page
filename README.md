@@ -9,3 +9,12 @@ npm install
 cp .env.example .env
 docker-compose up
 ```
+
+Ou la version sans Docker :
+
+```shell
+npm install
+cp .env.example .env
+npm i
+npm start
+```
