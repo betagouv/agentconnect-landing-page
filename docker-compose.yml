@@ -1,8 +1,8 @@
-version: '3'
+version: "3"
 services:
   web:
     build: .
-    volumes: 
+    volumes:
       - "./:/app"
-    ports: 
+    ports:
       - "3000:3000"

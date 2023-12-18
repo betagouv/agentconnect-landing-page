@@ -1,5 +1,5 @@
 /* CSS POUR LA PAGE AGENTS */
-.space-between{
+.space-between {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -7,8 +7,8 @@
 
 /* LISTE EN COLONNE --- A MODIFIER LORSQUE LA MAQUETTE SERA PERENNE */
 
-@media screen and (min-width: 768px){
-  .column-list{
+@media screen and (min-width: 768px) {
+  .column-list {
     column-count: 2;
   }
 }
@@ -18,27 +18,28 @@
 }
 
 /* UTILITY */
-.text-centered{
+.text-centered {
   text-align: center;
 }
 
-.js-eligibility-hidden{
+.js-eligibility-hidden {
   display: none;
 }
 
-.border-grey{
+.border-grey {
   border-top: 1px solid #f2f2f9;
-  border-bottom: 1px solid #f2f2f9; 
+  border-bottom: 1px solid #f2f2f9;
 }
 
-.secondary-list{
+.secondary-list {
   list-style-type: circle;
 }
 
-.shade{
+.shade {
   filter: drop-shadow(var(--raised-shadow));
 }
 
-.fr-table td, .fr-table th{
+.fr-table td,
+.fr-table th {
   vertical-align: top;
 }
