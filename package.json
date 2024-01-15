@@ -20,5 +20,8 @@
   "devDependencies": {
     "prettier": "^3.1.1",
     "prettier-plugin-ejs": "^1.0.1"
+  },
+  "prettier": {
+    "plugins": ["prettier-plugin-foo"]
   }
 }
