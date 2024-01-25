@@ -1,54 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<%- include('partials/head.ejs'); %>
+  <%- include('partials/head.ejs'); %>
 
-<body>
-  <%- include('partials/menu.ejs'); %>
-  <div class="fr-background-alt--grey">
-    <div class="fr-container">
-      <div class="fr-grid-row fr-grid-row--middle fr-py-4w">
-        <div class="fr-hidden fr-unhidden-md fr-col-1">
-          <img src="/pictograms/calendar.png" class="fr-responsive-img fr-artwork" aria-hidden="true" alt="" />
-        </div>
-        <div class="fr-col-8 fr-col-offset-1">
-          <h1 class="fr-mb-0">Feuille de route d'AgentConnect</h1>
+  <body>
+    <%- include('partials/menu.ejs'); %>
+    <div class="fr-background-alt--grey">
+      <div class="fr-container">
+        <div class="fr-grid-row fr-grid-row--middle fr-py-4w">
+          <div class="fr-hidden fr-unhidden-md fr-col-1">
+            <img
+              src="/pictograms/calendar.png"
+              class="fr-responsive-img fr-artwork"
+              aria-hidden="true"
+              alt=""
+            />
+          </div>
+          <div class="fr-col-8 fr-col-offset-1">
+            <h1 class="fr-mb-0">Feuille de route d'AgentConnect</h1>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="fr-container fr-my-5w">
-    <div class="fr-grid-row fr-grid-row--gutters">
-      <div class="fr-col-12 fr-col-offset-1">
-        <!-- <p></p> -->
-        <nav class="navmenu fr-col-12">
-          <ul>
-            <li>
-              <div class="bubble fr-py-5v">
-                <h2 class="fr-h6 fr-mb-1">Ce qu'on a fait en 2023</h2>
-                <p class="fr-mb-0">✅ Tous les agents de la fonction publique peuvent se connecter à AgentConnect.</p>
-                <p class="fr-mb-0">✅ Parcours utilisateur amélioré avec la redirection par adresse email.</p>
-              </div>
-            </li>
-            <li class="active">
-              <div class="bubble">
-                <h2 class="fr-h6 fr-mb-1">Finalisation d'implémentation</h2>
-                <p class="fr-mb-0">🔲 Espace partenaire</p>
-                <p class="fr-mb-0">🔲 Nouvelle interface de modération</p>
-              </div>
-            </li>
-            <li>
-              <div class="bubble">
-                <h2 class="fr-h6 fr-mb-1">Prévu en 2024</h2>
-                <p class="fr-mb-0">Implémentation des fournisseurs d'identité suivant : Intérieur, MENJ, Affaire sociale et culture, Justice.</p>
-              </div>
-            </li>
-          </ul>
-        </nav>
+    <div class="fr-container fr-my-5w">
+      <div class="fr-grid-row fr-grid-row--gutters">
+        <div class="fr-col-12 fr-col-offset-1">
+          <!-- <p></p> -->
+          <nav class="navmenu fr-col-12">
+            <ul>
+              <li>
+                <div class="bubble fr-py-5v">
+                  <h2 class="fr-h6 fr-mb-1w">Deuxième semestre 2023</h2>
+                  <p class="fr-mb-0">
+                    • Fusion avec MonComptePro : Tous les agents de la fonction
+                    publique peuvent se connecter à AgentConnect.
+                  </p>
+                  <p class="fr-mb-0">
+                    • Parcours utilisateur amélioré avec la connexion par
+                    adresse email.
+                  </p>
+                </div>
+              </li>
+              <li class="active">
+                <div class="bubble">
+                  <h2 class="fr-h6 fr-mb-1w">Trimestre en cours</h2>
+                  <p class="fr-mb-0">
+                    • Migration de l'infrastructure cloud de MonComptePro.
+                  </p>
+                  <p class="fr-mb-0">
+                    • Outillage interne : nouvelle interface de modération.
+                  </p>
+                  <p class="fr-mb-0">
+                    • Outillage externe : nouvel espace partenaire.
+                  </p>
+                  <p class="fr-mb-0">
+                    • Nouveau fournisseur de service :
+                    <a href="https://annuaire-entreprises.data.gouv.fr/"
+                      >Annuaire des entreprises</a
+                    >.
+                  </p>
+                  <p class="fr-mb-0">
+                    • Nouveau fournisseur de service :
+                    <a href="https://pad.numerique.gouv.fr/"
+                      >Notepad de l'État</a
+                    >.
+                  </p>
+                  <p class="fr-mb-0">
+                    • Premier fournisseur d'identité à destiantion du secteur
+                    privé :
+                    <a href="https://egapro.travail.gouv.fr/">Egapro</a>.
+                  </p>
+                  <p class="fr-mb-0">• AgentConnect s’ouvre au privé .</p>
+                </div>
+              </li>
+              <li>
+                <div class="bubble">
+                  <h2 class="fr-h6 fr-mb-1w">Trimestre prochain</h2>
+                  <p class="fr-mb-0">
+                    • Migration de l'infrastructure cloud d'AgentConnect.
+                  </p>
+                  <p class="fr-mb-0">
+                    • France Travail rejoint la fédération d'identité.
+                  </p>
+                  <p class="fr-mb-0">
+                    • Le ministère de l'Éducation nationale, de la Jeunesse, des
+                    Sports et des Jeux Olympiques et Paralympiques rejoint la
+                    fédération d'identité.
+                  </p>
+                  <p class="fr-mb-0">
+                    • Nouveau fournisseur de service :
+                    <a href="https://www.tchap.gouv.fr/">Tchap</a>.
+                  </p>
+                  <p class="fr-mb-0">
+                    • ProConnect fusionne avec AgentConnect.
+                  </p>
+                  <p class="fr-mb-0">
+                    • InclusionConnect fusionne avec AgentConnect.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="bubble">
+                  <h2 class="fr-h6 fr-mb-1w">Semestre prochain</h2>
+                  <p class="fr-mb-0">• Authentification à facteur multiple.</p>
+                  <p class="fr-mb-0">
+                    • Mise en ligne d'un outil de gestion des identités.
+                  </p>
+                  <p class="fr-mb-0">
+                    • Mise en ligne d'un outil de gestion des groupes de
+                    travail.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="bubble">
+                  <h2 class="fr-h6 fr-mb-1w">En 2025</h2>
+                  <p class="fr-mb-0">
+                    • AgentConnect suit une personne tout au long de sa
+                    carrière.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
-  <%- include('partials/footer.ejs'); %>
-</body>
-
+    <%- include('partials/footer.ejs'); %>
+  </body>
 </html>
