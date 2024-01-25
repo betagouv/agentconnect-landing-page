@@ -44,6 +44,15 @@
   vertical-align: top;
 }
 
+
 .bubble {
   max-width: 700px !important;
+}
+
+.middle{
+  vertical-align: middle;
+}
+
+.border-grey-full {
+  border: 1px solid var(--border-default-grey);
 }
