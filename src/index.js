@@ -30,7 +30,7 @@ const routes = [
     data: { title: "Fournisseur de Services - AgentConnect" },
   },
   {
-    path: "/route",
+    path: "/feuille-de-route",
     template: "route",
     data: { title: "Feuille de route - AgentConnect" },
   },
