@@ -44,6 +44,11 @@
   vertical-align: top;
 }
 
+
+.bubble {
+  max-width: 700px !important;
+}
+
 .middle{
   vertical-align: middle;
 }
