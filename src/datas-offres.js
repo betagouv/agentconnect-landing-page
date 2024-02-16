@@ -83,6 +83,11 @@ exports.offres_fi = [
     description: "Portail des applications interministérielles RH",
   },
   {
+    title: "Annuaire des Entreprises",
+    url: "https://annuaire-entreprises.data.gouv.fr/",
+    description: "Vérification des informations légales publiques des entreprises, associations et services publics en France",
+  },
+  {
     title: "Contrats Territoires Internet et RIE",
     url: "https://contrats-territoires.interieur.gouv.fr/accounts/login",
     description: "Service pour élaborer les Contrats Plan État-Région (CPER)",
