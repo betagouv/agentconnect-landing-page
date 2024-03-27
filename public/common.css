@@ -5,6 +5,12 @@
   justify-content: space-between;
 }
 
+.card-tutorial{
+  border-radius: 4px;
+  background: var(--light-background-alt-blue-france, #F5F5FE);
+  
+}
+
 /* LISTE EN COLONNE --- A MODIFIER LORSQUE LA MAQUETTE SERA PERENNE */
 
 @media screen and (min-width: 768px) {
@@ -56,3 +62,5 @@
 .border-grey-full {
   border: 1px solid var(--border-default-grey);
 }
+
+
