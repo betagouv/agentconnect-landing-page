@@ -31,7 +31,7 @@ const routes = [
   },
   {
     path: "/feuille-de-route",
-    template: "route",
+    template: "feuille-de-route",
     data: { title: "Feuille de route - AgentConnect" },
   },
   { path: "/aide", template: "aide", data: { title: "Aide - AgentConnect" } },
